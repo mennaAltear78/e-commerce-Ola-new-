@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 
 import SkeletonComponent from "../components/SkeletonComponent";
 import { supabase } from "../Api/supabaseClient";
-function Products() {
+function ProductsList() {
 useEffect(()=>{
   document.title="Products"
 },[])
@@ -55,4 +55,4 @@ const { data, error, isLoading }=useQuery({
   );
 }
 
-export default Products;
+export default ProductsList;

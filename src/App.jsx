@@ -1,5 +1,5 @@
 import './App.css'
-import Products from './Pages/products'
+import ProductsList from './Pages/products'
 import './index.css'
 import { Route,Routes } from 'react-router-dom'
 import ProductsDetails from './Pages/ProductsDetails'
@@ -21,8 +21,8 @@ function App() {
    
     <Routes>
       <Route path='/' element={<Layout/>}>
-      <Route index element={<Products/>}/>
-      <Route path='/products' element={<Products/>}/>
+      <Route index element={<ProductsList/>}/>
+      <Route path='/products' element={<ProductsList/>}/>
       <Route path="/products/:id" element={<ProductsDetails />} />
       {/* <Route path='/dashboard' element='Dashboard'/> */}
       <Route path="/team" element='Team' />
