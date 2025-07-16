@@ -21,8 +21,7 @@ import TableSkeleton from "./TableSkeleton";
 import {
   DeleteIcon,
   EditIcon,
-  PhoneIcon,
-  SearchIcon,
+
   ViewIcon,
 } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";

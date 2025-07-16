@@ -1,5 +1,5 @@
 import './App.css'
-import ProductsList from './Pages/Products.jsx'
+
 import './index.css'
 import { Route,Routes } from 'react-router-dom'
 import ProductsDetails from './Pages/ProductsDetails'
@@ -11,6 +11,7 @@ import DashboardLayout from './Pages/dashboard/DashboardLayout'
 import DashBoardProduct from './Pages/dashboard/DashBoardProduct'
 
 import SignupComponent from './Pages/Sinup'
+import ProductsList from './Pages/ProductsList'
 function App() {
   const token =CookiesService.get('jwt')
 

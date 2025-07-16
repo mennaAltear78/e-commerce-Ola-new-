@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { AddItemToCart } from "../../utils";
-import { act } from "react";
+
 import { createStandaloneToast } from "@chakra-ui/react";
 const { toast } = createStandaloneToast();
 const initialState = {
