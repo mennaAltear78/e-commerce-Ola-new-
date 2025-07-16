@@ -12,7 +12,7 @@ A modern, scalable, and fully responsive **E-Commerce Web Application** built us
 - **Redux Toolkit** – For global state management (cart, user, products)
 - **Axios** – For HTTP requests
 - **React Icons** – For icons
-- **CSS Modules / TailwindCSS / SCSS** – (اختاري ما استخدمتِه فعليًا)
+- **CSS Modules / TailwindCSS 
 
 ### 🔐 Authentication & Backend
 - **Supabase**: Used for user authentication and backend services with:
