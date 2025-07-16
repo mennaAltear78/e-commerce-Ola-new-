@@ -1,5 +1,5 @@
 import './App.css'
-import ProductsList from './Pages/Products'
+import ProductsList from './Pages/Products.jsx'
 import './index.css'
 import { Route,Routes } from 'react-router-dom'
 import ProductsDetails from './Pages/ProductsDetails'
