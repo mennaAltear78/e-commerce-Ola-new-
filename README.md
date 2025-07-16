@@ -1,7 +1,8 @@
 # 🛒 Ola E-Commerce Website
 
-A modern, scalable, and fully responsive **E-Commerce Web Application** built using **React.js**, **Redux Toolkit**, **Clerk Authentication**, and more. This project offers a seamless user experience, from browsing products to authentication and managing a shopping cart.
+A modern, scalable, and fully responsive **E-Commerce Web Application** built using **React.js**, **Redux Toolkit**, and **Supabase** for backend and authentication. This project offers a seamless user experience, from browsing products to user sign-up, login, and managing a shopping cart.
 
+---
 
 ## 🧰 Tech Stack & Tools
 
@@ -10,18 +11,21 @@ A modern, scalable, and fully responsive **E-Commerce Web Application** built us
 - **React Router DOM** – For client-side routing
 - **Redux Toolkit** – For global state management (cart, user, products)
 - **Axios** – For HTTP requests
-- **Clerk** – For authentication (Sign Up, Sign In, User Sessions)
 - **React Icons** – For icons
 - **CSS Modules / TailwindCSS / SCSS** – (اختاري ما استخدمتِه فعليًا)
 
-### 🔐 Authentication
-- **Clerk**: User management and secure login system with:
+### 🔐 Authentication & Backend
+- **Supabase**: Used for user authentication and backend services with:
   - Sign Up
   - Sign In
   - User session handling
+  - Realtime database (if used)
   - Protected routes (Private Routes)
 
-### 🛒 E-Commerce Features
+---
+
+## 🛒 E-Commerce Features
+
 - Product listing from static or dynamic source
 - Product details page
 - Add to Cart
@@ -34,7 +38,7 @@ A modern, scalable, and fully responsive **E-Commerce Web Application** built us
 
 ## 🧾 Features
 
-✅ User Authentication via Clerk  
+✅ User Authentication via Supabase  
 ✅ Redux-based Cart System  
 ✅ Responsive Product Cards  
 ✅ Dynamic Routing with React Router  
@@ -42,6 +46,7 @@ A modern, scalable, and fully responsive **E-Commerce Web Application** built us
 ✅ Protected Routes  
 ✅ Clean and Modern UI  
 ✅ State Persistence (via LocalStorage or Redux persist if used)
+
 
 
 
