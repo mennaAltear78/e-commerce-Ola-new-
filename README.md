@@ -43,7 +43,5 @@ A modern, scalable, and fully responsive **E-Commerce Web Application** built us
 ✅ Clean and Modern UI  
 ✅ State Persistence (via LocalStorage or Redux persist if used)
 
----
 
-## 📁 Folder Structure
 
