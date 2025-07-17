@@ -3,6 +3,7 @@
 A modern, scalable, and fully responsive **E-Commerce Web Application** built using **React.js**, **Redux Toolkit**, and **Supabase** for backend and authentication. This project offers a seamless user experience, from browsing products to user sign-up, login, and managing a shopping cart.
 
 ---
+![Uploading image.png…]()
 
 ## 🧰 Tech Stack & Tools
 
